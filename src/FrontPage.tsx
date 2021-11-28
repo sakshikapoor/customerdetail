@@ -62,7 +62,7 @@ export function FrontPage() {
         updateMessage(message);
         setTimeout(() => {
             updateMessage('');
-        }, 50000)
+        }, 5000)
     }
 
     const getDetails = data.map((d: any) => <tr key={d.id}>
